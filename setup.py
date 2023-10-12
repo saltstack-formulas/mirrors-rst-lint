@@ -1,8 +1,10 @@
+from __future__ import annotations
+
 from setuptools import setup
 
 
 setup(
-    name='pre_commit_dummy_package',
+    name='pre_commit_placeholder_package',
     version='0.0.0',
-    install_requires=['restructuredtext-lint==1.3.2'],
+    install_requires=['restructuredtext-lint==1.4.0'],
 )

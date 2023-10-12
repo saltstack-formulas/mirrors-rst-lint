@@ -1,8 +1,10 @@
 -   id: rst-lint
     name: restructuredtext-lint
+    description: ''
     entry: rst-lint
     language: python
     'types': [rst]
     args: []
     require_serial: false
     additional_dependencies: []
+    minimum_pre_commit_version: '0'
