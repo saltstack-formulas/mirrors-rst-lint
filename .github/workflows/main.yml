@@ -10,8 +10,10 @@ jobs:
     name: main
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-python@v1
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
     - run: pip install pre-commit-mirror-maker
     - run: git config --global user.name 'Github Actions'
     - run: git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
